@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-position: center 0;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    background-color: #060606;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+    transition: background-image 0.5s ease, color 0.5s ease;
+  }
+
+body.dark {
+    background-image: url("image/background_dark.png");
+    color: white;
+  }
+
+  #theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  #theme-toggle img {
+    display: block;
+  }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 100%;
+}
+
+.cloud_image {
+    left: 1400px;
+    top: 50px;
+    position: fixed;
+    animation: moveCloud 5s ease-in-out infinite alternate;
+    pointer-events: none;
+    user-select: none;
+}
+
+.cloud_image img {
+    width: 600px;
+    height: auto;
+}
+
+.cloud_image_2 {
+    left: 100px;
+    top: -300px;
+    position: fixed;
+    animation: moveCloud2 6s ease-in-out infinite alternate;
+    pointer-events: none;
+    user-select: none;
+}
+
+.cloud_image_2 img {
+    position: fixed;
+    z-index: 2;
+    width: 600px;
+    height: auto;
+}
+
+.background_image_1 {
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+@keyframes moveCloud {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+    100% {
+        transform: translate3d(75px, 0px, 0px);
+    }
+}
+
+@keyframes moveCloud2 {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+    100% {
+        transform: translate3d(-75px, -20px, 0px);
+    }
+}
+
+.logo_main {
+    position: relative;
+    right: 680px;
+    bottom: 280px;
+}
+
+.title_main_1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 200px;
+    margin: 0 auto;
+}
+
+.title_main_1_2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.95em;
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 0px;
+    margin: 0 auto;
+}
+
+.title_main_desc_1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
+    top: 250px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.text_2_1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    color: white;
+    left: -370px;
+    top: 20px;
+    margin: 0 auto;
+}
+
+.text_2_2 {
+    text-align: center;
+    left: -370px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    top: 40px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.text_2_3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    color: white;
+    left: -370px;
+    top: 70px;
+    margin: 0 auto;
+}
+
+.text_2_4 {
+    text-align: center;
+    left: -370px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    top: 90px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.text_2_5 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    color: white;
+    left: -370px;
+    top: 120px;
+    margin: 0 auto;
+}
+
+.text_2_6 {
+    text-align: center;
+    left: -370px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    top: 140px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.text_3_1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    color: white;
+    left: 150px;
+    bottom: 500px;
+    margin: 0 auto;
+}
+
+.text_3_2 {
+    text-align: center;
+    left: 220px;
+    bottom: 500px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    position: relative;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.text_3_3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    color: white;
+    left: 95px;
+    bottom: 240px;
+    margin: 0 auto;
+}
+
+.text_3_4 {
+    text-align: center;
+    left: 165px;
+    bottom: 240px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    position: relative;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+
+.phone_number_main {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    position: relative;
+    color: white;
+    left: 650px;
+    bottom: 225px;
+    margin: 0 auto;
+}
+
+.project_1 {
+    position: relative;
+    left: -400px;
+}
+
+.project_2 {
+    position: relative;
+    top: 50px;
+    left: -400px;
+}
+
+.git_1 {
+    position: relative;
+    right: 750px;
+    bottom: 650px;
+}
+.git_2 {
+    position: relative;
+    right: 750px;
+    bottom: 420px;
+}
+
+.menu_container {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+  }
+  
+  .menu_main {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
+    color: rgba(255, 255, 255, 0.685);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .menu_main:hover {
+    color: rgba(255, 217, 0, 0.9);
+  }
+
+.about_main_1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
+    right: 250px;
+    bottom: 420px;
+    position: relative;
+    color: rgba(255, 217, 0, 0.685);
+}
+.about_main_2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
+    right: 80px;
+    bottom: 441px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.685);
+}
+.about_main_3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
+    left: 80px;
+    bottom: 462px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.685);
+}
+.about_main_4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
+    left: 250px;
+    bottom: 483px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.buttons_main{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+}
+
+.button_main_2 {
+    margin-top: -10px;
+}
+
+.button_main_1:hover{
+    filter:invert(5%);
+    cursor: pointer;
+}
+.button_main_2:hover{
+    filter:invert(5%);
+    cursor: pointer;
+}
+
+.form-wrapper {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    z-index: 10;
+}
+form {
+    font-family: "Roboto", sans-serif;
+    border-radius: 30px;
+    background-color: #0606064d;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  button {
+    background: #310303;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.contact_vk {
+    position: relative;
+    left: 300px;
+    top: 400px;
+}
+.contact_git {
+    max-width: 300px;
+    left: 800px;
+    position: relative;
+    top: 200px;
+}
+.contact_gmail {
+    max-width: 300px;
+    position: relative;
+    left: 450px;
+}
+
+.footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
+    left: -850px;
+    top: 520px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.562);
+}
+.footer_2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
+    left: -850px;
+    top: 288px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.562);
+}
+.footer_3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
+    left: -850px;
+    bottom: 150px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.562);
+}
+.footer_4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
+    left: -850px;
+    top: 198px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.562);
+}
